@@ -3,7 +3,7 @@ resource "aws_vpc" "demo" {
   instance_tenancy = "default"
 
   tags = {
-    Name = "DEMO"
+    Name = "DEMO-versioning"
   }
 }
 
